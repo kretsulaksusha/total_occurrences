@@ -17,7 +17,3 @@ def total_occurrences(s1, s2, ch):
         count_ch = list_s1.count(ch) + list_s2.count(ch)
         return count_ch
     return None
-
-if __name__ == '__main__':
-    import doctest
-    print(doctest.testmod())
